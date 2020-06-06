@@ -10,8 +10,9 @@
 ">
 
 	<!--循环依赖问题-->
-	<bean id="goupanBean" class="com.goupan.study.GoupanBean">
-	</bean>
+	<bean id="goupanBean" class="com.goupan.study.GoupanBean"></bean>
+	<bean id="myBeanFactoryPostProcessor" class="com.goupan.study.MyBeanFactoryPostProcessor"></bean>
+	<bean id="myBeanPostProcessor" class="com.goupan.study.MyBeanPostProcessor"></bean>
 
 
 

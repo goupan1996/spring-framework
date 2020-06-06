@@ -29,7 +29,7 @@ public class IocTest {
 
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 		GoupanBean goupanBean = applicationContext.getBean(GoupanBean.class);
-		System.out.println(goupanBean);
+//		System.out.println(goupanBean);
 	}
 
 
@@ -41,6 +41,6 @@ public class IocTest {
 	public void testAOP() {
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("classpath:applicationContext.xml");
 		GoupanBean goupanBean = applicationContext.getBean(GoupanBean.class);
-		goupanBean.print();
+//		goupanBean.print();
 	}
 }
